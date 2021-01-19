@@ -1,91 +1,180 @@
-body {
-    background-color: black
-    
+*{
+    margin: 0;
+    padding: 0;  
 }
-.wrapper{
-    x-sizing: border-bobox;
-    width: 100%;
-    margin: 50px 100px; 
-    background-color: rgb(98, 98, 235);
-    padding: 60px;
-    display: block;
-    border-color: white;
-    border: 2px;
 
+.body{ 
+    margin: 5px;
+    padding: 20px;
+    width: 100%;
 }
-.header{ 
+
+.wrapper{
+    margin: 5px 5px;
     display: inline-block;
-    text-align: right;
+    width: 1200px;
+    background-color: rgb(98, 98, 235);
+    padding: 40px;
+    border-color: blue;
+    border-width: 10px;
+}
+
+.header{ 
+    margin: 0 ;
+    padding: 40px;
+    margin:  0;
     font-size: 20px;
     font-family: 'Lucida Sans Unicode';
     color: white;
+    text-align: left;
+   
 } 
+
 .city-one {
+    margin: auto;
+    margin-right: -6px;
+    display: inline-block;
+    width: 100%;
     list-style: none;
     font-family: 'Lucida Grande';
-    text-align: center;
-    padding: 20px;
     font-size: 20px;
     color: white;
+    text-align: center;
 
-}
-.city-one li {
-    margin: 5px 0;
-    display: inline-block;
-    background-color: ;
-    width: 75px;
-    height: 15px;
-   padding: 5px;
 }
 
 .city-two {
+    margin: auto;
+    margin-top: -4px;
+    font-family: 'Lucida Grande';
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.city-three {
+    margin-top: -3px;
+    width: 100%;
     list-style: none;
     font-family: 'Lucida Grande';
     text-align: center;
     font-size: 20px;
     color: white;
 }
-.city-two li {
-    margin: 5px 0;
-    display: inline-block;
-    background-color: ;
-    width: 75px;
-    height:15px;
-   padding: 5px;
-}
-.city-three{
-    list-style: none;
-    font-family: 'Lucida Grande';
-    text-align: center;
-    font-size: 20px;
-    color: white;
-}
-.city-three li{
-    margin: 5px 0;
-    display: inline-block;
-    background-color: ;
-    width: 75px;
-    height: 15px;
-    padding: 5px;
-}
+    
 .city-four{
+    margin: 9.1%;
+    margin-top: -3px;
     list-style: none;
     font-family: 'Lucida Grande';
     text-align: center;
     font-size: 20px;
     color: white;
+    display:inline-block;
+    border: 2px;
+    width: 930px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    background-color:rgba(89, 89, 145, 0.842);
 }
-.city-four li{
-    margin: 5px 0;
-    display: inline-block;
-    background-color: ;
-    width: 75px;
-    height:15px; 
-    padding: 5px;  
-}
+
 p{
+    margin: 10 10;
+    text-align: left ;
     font-family: sans-serif;
-    font-size: 15px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    padding-left: 20px;
     color: white;
 }
+
+.first{
+    width: 441px;
+    background-color: blueviolet;
+}
+
+.second{
+    margin-left: -10px;
+    width: 200px;
+    background-color: rgb(24, 216, 223);
+}
+    
+.third{  
+    margin-left: -10px;
+    width: 200px;
+    background-color: rgb(220, 122, 233);
+}
+
+.ms{
+    margin-right: -10px;
+    width: 200px;
+    background-color: rgb(228, 26, 26);
+}
+
+.ta{
+    margin-right: -10px;
+    width: 200px;
+    background-color: rgb(238, 100, 20);  
+}
+
+.ci{
+    margin-right: -10px;
+    width: 200px;
+    background-color: rgba(255, 255, 0, 0.925);
+}
+
+.ny{
+    width: 200px;
+    background-color: rgba(123, 231, 123, 0.89)    
+}
+
+.nd{
+    width: 200px;
+    background-color: rgba(73, 95, 73, 0.89);  
+    margin-right: -10px;
+}
+
+.sf{
+    width: 442px;
+    background-color: rgba(192, 31, 171, 0.89);
+    margin-right: -10px;
+}   
+
+.tk{
+    width: 200px;
+    background-color: rgba(7, 77, 7, 0.89);
+}
+
+.city-one .first,
+.city-one .second,
+.city-one .third{
+   display: inline-block; 
+   padding:20px;
+   border-style: solid;
+   border-width: 5px;
+   border-color: white;
+}
+
+.city-two .ms,.ta,.ci,.ny {
+    display:inline-block;
+    padding: 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+}
+
+.nd,.sf,.tk{
+    display: inline-block;
+    border: 2px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+}
+
+
+
